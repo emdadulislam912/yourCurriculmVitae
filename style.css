@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Boldonse&family=Bytesized&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+--primary-clr:hwb(174 0% 40%);
+--text-clr: hsl(0, 0%, 46%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-size: 1.6rem;
+    color: var(--text-clr);
+    background-color: hsl(0, 4%, 95%);
+    padding: 1.5rem;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+h1, h2, h3{
+    font-family: "Ubuntu", sans-serif;
+    padding: 1rem 0;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    background-color: var(--primary-clr);
+    color: hsl(0, 0%, 100%);
+}
+h2{
+    font-size: 3rem;
+}
+i{
+    margin-right: 1rem;
+    color: var(--primary-clr)
+}
+.timeTable{
+    color: var(--primary-clr)
+}
+/* Container */
+.container{
+    display: flex;
+    
+}
+.leftcol{
+    flex-basis: 33%;
+    margin: 0 1rem;
+    background-color: white;
+}
+.leftcol > div{
+    padding: 1.5rem 0;
+    margin: 1.5rem
+}
+p{
+    padding: 1rem 0;
+
+}
+.adobe{
+    background-color: hsl(0, 0%, 80%);
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+.photoshop{
+    background-color: var(--primary-clr);
+    width: 90%;
+    border-radius: 2rem;
+    text-align: center;
+    color: black;
+}
+.photo{
+    background-color: hsl(0, 0%, 80%);
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+.graphy{
+    background-color: var(--primary-clr);
+    width: 80%;
+    border-radius: 2rem;
+    text-align: center;
+    color: black;
+}
+.illus{
+    background-color: hsl(0, 0%, 80%);
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+.traitor{
+    background-color: var(--primary-clr);
+    width: 70%;
+    border-radius: 2rem;
+    text-align: center;
+    color: black;
+}
+.media{
+    background-color: hsl(0, 0%, 80%);
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+.set{
+    background-color: var(--primary-clr);
+    width: 50%;
+    border-radius: 2rem;
+    text-align: center;
+    color: black;
+}
+.eng{
+    background-color: hsl(0, 0%, 80%);
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+.lish{
+    background-color: var(--primary-clr);
+    width: 80%;
+    border-radius: 2rem;
+    text-align: center;
+    color: black;
+}
+.spa{
+    background-color: hsl(0, 0%, 80%);
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+.nish{
+    background-color: var(--primary-clr);
+    width: 60%;
+    border-radius: 2rem;
+    text-align: center;
+    color: black;
+}
+.ger{
+    background-color: hsl(0, 0%, 80%);
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+.many{
+    background-color: var(--primary-clr);
+    width: 50%;
+    border-radius: 2rem;
+    text-align: center;
+    color: black;
+}
+
+.rightcol{
+    flex-basis: 66%;
+    margin: 0 1rem;
+    
+}
+.experience{
+    margin-bottom: 1.5rem;
+    background-color: white;
+    padding: 2rem;
+}
+.education{
+    background-color: white;
+    padding: 2rem;
+}
+
+.experience > div, .education > div{
+    margin-top: 2.1rem;
+    margin-bottom: 2.1rem;
+}
+/* Footer*/
+footer{
+    background-color:  var(--primary-clr);
+    color: white;
+    text-align: center;
+    margin: 1.5rem 1rem;
+}
+.fa-facebook{
+    color:hsl(221, 100%, 38%);
+    font-size: 3rem;
+}
+.fa-instagram {
+    color:hsl(340, 100%, 50%);
+    font-size: 3rem;
+}
+.fa-linkedin{
+    color:hsl(210, 100%, 30%);
+    font-size: 3rem;
+}
+.fa-youtube{
+    color:hsl(0, 100%, 50%);
+    font-size: 3rem;
+}
+
+.leftcol, .education, .experience{
+    box-shadow: 5px 5px 5px lightgrey;
+}
+
+@media screen and (max-width:767px) {
+    .container{
+        flex-direction: column;
+    }
+}

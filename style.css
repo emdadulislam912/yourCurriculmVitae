@@ -195,7 +195,7 @@ footer{
     .container{
         flex-direction: column;
         .rightcol{
-            margin: 1rem;
+            margin-top: 1rem;
         }
     }
 }

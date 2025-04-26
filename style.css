@@ -163,13 +163,7 @@ p{
     margin-top: 2.1rem;
     margin-bottom: 2.1rem;
 }
-/* Footer*/
-footer{
-    background-color:  var(--primary-clr);
-    color: white;
-    text-align: center;
-    margin: 1.5rem 1rem;
-}
+
 .fa-facebook{
     color:hsl(221, 100%, 38%);
     font-size: 3rem;
@@ -188,7 +182,14 @@ footer{
 }
 
 .leftcol, .education, .experience{
-    box-shadow: 5px 5px 5px lightgrey;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 83%);
+}
+/* Footer*/
+footer{
+    background-color:  var(--primary-clr);
+    color: white;
+    text-align: center;
+    margin: 1.5rem 0.2rem;
 }
 
 @media screen and (max-width:767px) {
